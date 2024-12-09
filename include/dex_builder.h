@@ -598,7 +598,6 @@ private:
   ir::Class *class_;
   ir::FieldDecl *decl_;
   ::dex::u4 access_flags_ = ::dex::kAccPublic | ::dex::kAccStatic;
-  ;
 };
 
 // Tools to help build methods and their bodies.
@@ -841,7 +840,6 @@ private:
   std::vector<bool> register_liveness_;
 
   ::dex::u4 access_flags_ = ::dex::kAccPublic | ::dex::kAccStatic;
-  ;
 };
 
 // Builds Dex files from scratch.
