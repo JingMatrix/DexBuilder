@@ -42,11 +42,11 @@
 
 #define SLICER_IR_TYPE     \
   using Node::Node; \
-  friend struct DexFile;
+  friend struct DexFile
 
 #define SLICER_IR_INDEXED_TYPE           \
   using IndexedNode::IndexedNode; \
-  friend struct DexFile;
+  friend struct DexFile
 
 namespace ir {
 
